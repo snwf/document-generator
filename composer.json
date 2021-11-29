@@ -1,0 +1,21 @@
+{
+  "name": "snwf/document-generator",
+  "homepage": "https://github.com/snwf/document-generator",
+  "description": "This is an easy-to-use tool for generating documentation based on code comment blocks.",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "snwf",
+      "email": "dd112389@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DocumentGenerator": "src/"
+    }
+  }
+}
