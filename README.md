@@ -28,6 +28,10 @@ git clone https://github.com/snwf/document-generator.git
 php build
 ```
 
+## Structure
+
+## Extend
+
 ## Feature
 
 - [ ] Automatically generate documentation based on doc block.
