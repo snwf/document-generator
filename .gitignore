@@ -1,0 +1,11 @@
+# IDE
+/.idea
+/.vscode
+
+# Composer
+/vendor
+/composer.phar
+/composer.lock
+
+# PHPUnit
+/phpunit.phar
