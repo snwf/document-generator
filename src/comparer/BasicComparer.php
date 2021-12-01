@@ -18,8 +18,4 @@ class BasicComparer implements ComparerInterface
     {
         return [];
     }
-
-    public function store (array $difference, string $file): void
-    {
-    }
 }

@@ -15,17 +15,18 @@ class HTMLBuilder implements BuilderInterface
 {
 
     /**
-     * @inheritDoc
+     * @inheritdoc
      */
-    public function build (array $data): string
+    public function document (array $data): string
     {
         return '';
     }
 
     /**
-     * @inheritDoc
+     * @inheritdoc
      */
-    public function store (array $data, string $file): void
+    public function modify (): string
     {
+        return '';
     }
 }

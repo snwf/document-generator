@@ -12,20 +12,18 @@ namespace DocumentGenerator;
 interface BuilderInterface
 {
     /**
-     * input parse data, output format string
+     * input parse data, output build data.
      *
      * @param array $data
-     * @return string
+     * @return mixed
      * @throws ExceptionInterface
      */
-    public function build (array $data): string;
+    public function document (array $data): mixed;
 
     /**
-     * input parse data, store file to ram.
+     * input compare data, output build data.
      *
-     * @param array  $data
-     * @param string $file
-     * @throws ExceptionInterface
+     * @return mixed
      */
-    public function store (array $data, string $file): void;
+    public function modify (): mixed;
 }

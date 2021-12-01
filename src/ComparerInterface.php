@@ -19,12 +19,4 @@ interface ComparerInterface
      * @return array
      */
     public function compare (array $last_doc, array $new_doc): array;
-
-    /**
-     * save difference.
-     *
-     * @param array  $difference
-     * @param string $file
-     */
-    public function store (array $difference, string $file): void;
 }

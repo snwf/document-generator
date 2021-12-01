@@ -17,7 +17,7 @@ class MarkdownBuilder implements BuilderInterface
     /**
      * @inheritDoc
      */
-    public function build (array $data): string
+    public function document (array $data): string
     {
         return '';
     }
@@ -25,7 +25,8 @@ class MarkdownBuilder implements BuilderInterface
     /**
      * @inheritDoc
      */
-    public function store (array $data, string $file): void
+    public function modify (): string
     {
+        return '';
     }
 }
